@@ -1,0 +1,32 @@
+# Core dependencies
+torch
+numpy
+sounddevice
+ffmpeg-python
+
+# ASR
+openai-whisper
+
+# Voice Cloning
+# (Choose one or both, depending on your approach)
+# For RTVC:
+webrtcvad
+PyQt5
+matplotlib
+
+# For OpenVoice (if you want to try it too):
+# pip install openvoice
+
+# TTS
+TTS  # Coqui TTS
+
+# LLM
+# For API-based: openai, requests
+# For local: ollama (run outside Python), llama-cpp-python
+
+# Frontend
+gradio
+streamlit
+
+# Utilities
+requests
