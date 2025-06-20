@@ -1,3 +1,17 @@
 venv/
 data/
 logs/
+venc310/
+processed/
+scripts/processed/
+scripts/__pycache__/
+vocomate_app/utils/__pycache__/
+vocomate_app/asr/__pycache__/
+vocomate_app/ui/__pycache__/
+vocomate_app/tts/__pycache__/
+vocomate_app/llm/__pycache__/
+vocomate_app/vocomate_app/utils/__pycache__/
+vocomate_app/assests/
+vocomate_app/vocomate_app/assests/
+.vscode/
+

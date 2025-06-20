@@ -2,23 +2,28 @@
 torch
 numpy
 sounddevice
+soundfile
 ffmpeg-python
 
 # ASR
 openai-whisper
 
 # Voice Cloning
+openvoice
 # (Choose one or both, depending on your approach)
 # For RTVC:
-webrtcvad
+webrtcvad-wheels
 PyQt5
 matplotlib
-
 # For OpenVoice (if you want to try it too):
 # pip install openvoice
 
 # TTS
 TTS  # Coqui TTS
+
+# VAD (Voice Activity Detection)
+silero-vad
+torchaudio
 
 # LLM
 # For API-based: openai, requests
@@ -27,6 +32,8 @@ TTS  # Coqui TTS
 # Frontend
 gradio
 streamlit
+streamlit-webrtc
+audio-recorder-streamlit
 
 # Utilities
 requests
