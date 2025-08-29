@@ -15,7 +15,7 @@ export default function Home() {
         pip install -r requirements.txt{'\n'}
         uvicorn vocomate_app.main:app --reload
       </pre>
-      <p>Then open <code>http://localhost:8000/health</code></p>
+      
     </main>
   );
 }
