@@ -14,4 +14,6 @@ vocomate_app/vocomate_app/utils/__pycache__/
 vocomate_app/assests/
 vocomate_app/vocomate_app/assests/
 .vscode/
+site/node_modules
+vocomate_app/assests/cloned_outputs/
 

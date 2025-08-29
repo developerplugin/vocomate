@@ -27,3 +27,30 @@
 │   └── __init__.py
 ├── requirements.txt
 └── README.md -->
+
+# Vocamate — Open-Source Voice/Agent Starter
+
+Vocamate is a minimal starter for building voice/chat agents (ASR + TTS + LLM).
+Batteries-included Python APIs; optional Next.js demo for Vercel deploy.
+
+## Quick Start
+# Python API
+pip install -r requirements.txt
+uvicorn vocomate_app.main:app --reload
+
+Open: http://localhost:8000/health
+
+## Deploy on Vercel (optional demo UI)
+cd site
+npm i && npm run dev
+# import 'site' into Vercel → get a live URL
+
+## Endpoints
+GET /health → {"ok": true, "service": "vocomate"}
+
+## Roadmap
+- Whisper/Coqui/ElevenLabs connectors
+- Ollama/local LLM example
+
+## License
+MIT
